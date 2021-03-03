@@ -1,4 +1,4 @@
-%Greeting to start
+%Opening
 clc;
 fprintf('\n********************************\n')
 fprintf('\n*           WELCOME            *\n')
@@ -6,14 +6,13 @@ fprintf('\n*              To              *\n')
 fprintf('\n*       Egyptian Rat Screw     *\n') 
 fprintf('\n********************************\n')
 
+%Greeting to start 
 z = input ('What is your name? \n', 's');
 clc;
 part1 = 'Hi, ';
 part2 = '! ';
 part3 = 'Do you want to start the game or review the rules?';
 greeting = [part1 z part2 part3];
-
-
 fprintf (greeting);
 fprintf('\n           \n')
 
