@@ -26,16 +26,39 @@ v3 = {'Ace of Hearts','2 of Hearts','3 of Hearts','4 of Hearts','5 of Hearts','6
 k3 = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52};
 CardDeckName = containers.Map(k3,v3);
 
-v4 = {'AH.png','2 of Hearts','3 of Hearts','4 of Hearts','5 of Hearts','6 of Hearts','7 of Hearts','8 of Hearts','9 of Hearts','10 of Hearts','J of Hearts','Q of Hearts','K of Hearts','Ace of Diamonds','2 of Diamonds','3 of Diamonds','4 of Diamonds','5 of Diamonds','6 of Diamonds','7 of Diamonds','8 of Diamonds','9 of Diamonds','10 of Diamonds','J of Diamonds','Q of Diamonds','K of Diamonds','Ace of Spades','2 of Spades','3 of Spades','4 of Spades','5 of Spades','6 of Spades','7 of Spades','8 of Spades','9 of Spades','10 of Spades','J of Spades','Q of Spades','K of Spades','Ace of Clubs','2 of Clubs','3 of Clubs','4 of Clubs','5 of Clubs','6 of Clubs','7 of Clubs','8 of Clubs','9 of Clubs','10 of Clubs','J of Clubs','Q of Clubs','K of Clubs'};
+v4 = {'AH.png','2H.png','3H.png','4H.png','5H.png','6H.png','7H.png','8H.png','9H.png','10H.png','JH.png','QH.png','KH.png','Ace of Diamonds','2 of Diamonds','3 of Diamonds','4 of Diamonds','5 of Diamonds','6 of Diamonds','7 of Diamonds','8 of Diamonds','9 of Diamonds','10 of Diamonds','J of Diamonds','Q of Diamonds','K of Diamonds','Ace of Spades','2 of Spades','3 of Spades','4 of Spades','5 of Spades','6 of Spades','7 of Spades','8 of Spades','9 of Spades','10 of Spades','J of Spades','Q of Spades','K of Spades','Ace of Clubs','2 of Clubs','3 of Clubs','4 of Clubs','5 of Clubs','6 of Clubs','7 of Clubs','8 of Clubs','9 of Clubs','10 of Clubs','J of Clubs','Q of Clubs','K of Clubs'};
 k4 = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52};
 CardDeckPictures = containers.Map(k4,v4);
 
-pull = CardDeckPictures(1);
-pull = convertCharsToStrings(pull);
-src = strcat('PNG\',pull);
-imread(src);
-figure, imshow(pull);
-axis('image'); 
-
+%testing can we display images from the map container
+figure(1);
+for i=1:13
+    p1 = subplot(1,2,1);
+    pull = CardDeckPictures(i);
+    pull = convertCharsToStrings(pull);
+    src = strcat('PNG/',pull);
+    imread(src);
+    imshow(src);
+    axis('image');
+    p1 = subplot(1,2,2);
+    text(0.5,0.5,'We are setting up all the cards! Are you ready?'); axis on
+    pause(.5); 
+end
+% 
+% pull = CardDeckPictures(1);
+% pull = convertCharsToStrings(pull);
+% src = strcat('PNG/',pull);
+% imread(src);
+% figure(1); 
+% imshow(src);
+% axis('image'); 
+% 
+% pause(5.0);
+% 
+% pull = CardDeckPictures(2);
+% pull = convertCharsToStrings(pull);
+% src = strcat('PNG/',pull);
+% imread(src);
+% imshow(src);
 
 %Need to assign it pictures? Or is it a different step?
