@@ -1,4 +1,4 @@
-function [new_center,new_pseudo,new_winner] = grab_deck_and_clear(center_deck,pseudo_center,winner_deck)
+function [new_center,new_pseudo,new_winner,new_winner_size] = grab_deck_and_clear(center_deck,pseudo_center,winner_deck)
 %GRAB_DECK_AND_CLEAR: The array of integers from the center deck and
 %pseudo center are appended to the winner's deck; the center and pseudo
 %decks are then cleared
@@ -14,8 +14,11 @@ function [new_center,new_pseudo,new_winner] = grab_deck_and_clear(center_deck,ps
 %           new_pseudo - empty array 
 %           new_winner - the array winner_deck with the center_deck and
 %           pseudo_center appended
+%           new_winner_size - integer noting the new size of the winner's
+%           deck
 new_winner = cat(2,winner_deck,center_deck);
 new_winner = cat(2,new_winner,pseudo_center);
+new_winner_size = length(new_winner);
 new_center = [];
 new_pseudo = [];
 end
