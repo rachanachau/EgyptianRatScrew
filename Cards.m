@@ -56,5 +56,7 @@ for i=1:52
     end  
     axis off
     axis image
-    pause(.05); 
+    pause(.01); 
 end
+cla(p1);
+cla(p2);
