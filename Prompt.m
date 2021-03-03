@@ -25,6 +25,15 @@ fprintf('\n (2) Check the Rules\n')
 fprintf('\n           \n')
 player_input = input('');
 
+
+
+%****************
+% Do we want to button press or enter in command window?
+%k = waitforbuttonpress;
+%value = double(get(gcf,'CurrentCharacter'))
+%if value == 50
+    %fprintf.....
+
 clc;
 % Enter number 1, run the game
 %       if player_input == 1
