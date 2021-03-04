@@ -1,5 +1,5 @@
 function [s_jack] = jacks(center_cards, CardDeckNum)
-%SLAP_JACK: determines if card from center deck is a jack 
+%JACKS: determines if card from center deck is a jack 
 %   Input:
 %       center_cards – an array of integers representing the cards in the
 %          center pile
