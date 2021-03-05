@@ -10,6 +10,7 @@ function [deck1,deck2,computer_cards,player_cards] = hand_out_cards()
 %           computer has
 %           player_cards - integer noting the number of cards the
 %           player has
+global deck1 deck2 player_cards computer_cards; 
 full_deck = randperm(52);
 deck1 = full_deck(1:26);
 deck2 = full_deck(27:52);
