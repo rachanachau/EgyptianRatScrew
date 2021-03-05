@@ -8,7 +8,7 @@ function [s_jack] = jacks(center_cards, cardDeckNum)
 %   Output: 
 %       s_jack – inidicates if the last card in the center is a jack or not
 
-global center_cards cardDeckNum s_jack;
+global center_cards cardDeckNum ;
 
 
 %%%%%test 

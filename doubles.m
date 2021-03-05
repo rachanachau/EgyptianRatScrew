@@ -9,7 +9,7 @@ function [s_doubles] = doubles(center_cards, cardDeckNum)
 %       s_doubles – indicates if the last two cards in the center are the
 %       same
 
-global center_cards cardDeckNum s_doubles;
+global center_cards cardDeckNum;
 
 %%%%%test 
 % %container for card numbers if we can't make it a global variable
