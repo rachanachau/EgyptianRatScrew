@@ -1,4 +1,4 @@
-function [valid_slap] = rules(center_cards, CardDeckNum)
+function [valid_slap] = rules(center_cards, cardDeckNum)
 %RULES: Evaluates when any one of the rules is true; if one of the rules is
 %true, a slap can occur
 %  Input:
@@ -10,7 +10,11 @@ function [valid_slap] = rules(center_cards, CardDeckNum)
 %       valid_slap – indicates if one of the rules is true and if the
 %       player should slap
 
-if jacks(center_cards, CardDeckNum) || doubles(center_cards, CardDeckNum)
+global center_cards cardDeckNum jacks doubles valid_slap s_jack s_doubles;
+[s_jack] = jacks(center_cards, cardDeckNum);
+[s_doubles] = doubles(center_cards, cardDeckNum);
+
+if s_jack || s_doubles
     valid_slap = true;
 else 
     valid_slap = false;
