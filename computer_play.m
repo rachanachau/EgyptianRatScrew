@@ -15,7 +15,7 @@ function [computer_cards, center_cards] = computer_play(deck1,computer_cards,cen
     imshow(src);
     axis('image');
     p2 = subplot(1,2,2);
-    text(.1,.1,'Computer turn. Click kgjf for your turn.');
+    text(.1,.1,'Computer turn. Click a for your turn.');
     axis off
     axis image
     
