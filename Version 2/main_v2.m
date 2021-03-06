@@ -15,8 +15,8 @@ Cards;
 [deck1,deck2,computer_cards,player_cards] = hand_out_cards(); 
 while computer_cards ~= 0 || player_cards ~= 0 
     [computer_cards,center_cards] = computer_play(deck1,computer_cards,center_cards,cardDeckPictures); 
-    [valid_slap]=rules(center_cards, cardDeckNum); 
+    [valid_slap]=rules_v2(center_cards, cardDeckNum, cardDeckSuite); 
     listener; 
-    [valid_slap]=rules(center_cards, cardDeckNum);
+    [valid_slap]=rules_v2(center_cards, cardDeckNum, cardDeckSuite);
     pause(2.0)
 end 
