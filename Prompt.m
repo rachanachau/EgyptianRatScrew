@@ -13,7 +13,6 @@ url = 'http://www.clker.com/cliparts/C/G/V/6/j/7/egyptian-rat-hi.png';
 img = imread(url);
 imshow(img);
 
-set(gcf, 'Position',  [200, 100, 500, 400]);
 
 part1 = 'Hi, ';
 part2 = '! ';
