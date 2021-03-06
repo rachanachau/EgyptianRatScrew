@@ -1,5 +1,5 @@
-function [s_add_ten] = add_ten(center_cards, cardDeckNum)
-%ADD_TEN: determines if the last two cards in the center pile add to ten
+function [s_add_ten] = add_ten_v2(center_cards, cardDeckNum)
+%ADD_TEN_V2: determines if the last two cards in the center pile add to ten
 %   Input:
 %       center_cards – an array of integers representing the cards in the
 %          center pile

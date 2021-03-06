@@ -1,5 +1,5 @@
-function [s_marriage] = marriage(center_cards, cardDeckNum)
-%MARRIAGE: determines if last two cards from center deck are a king and queen 
+function [s_marriage] = marriage_v2(center_cards, cardDeckNum)
+%MARRIAGE_V2: determines if last two cards from center deck are a king and queen 
 %   Input:
 %       center_cards – an array of integers representing the cards in the
 %          center pile

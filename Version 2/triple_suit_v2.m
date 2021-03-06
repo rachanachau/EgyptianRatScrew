@@ -1,5 +1,5 @@
-function [s_triple_suit] = triple_suit(center_cards, cardDeckSuite)
-%TRIPLE_SUIT: determines if there are three of the same suit in a row
+function [s_triple_suit] = triple_suit_v2(center_cards, cardDeckSuite)
+%TRIPLE_SUIT_V2: determines if there are three of the same suit in a row
 %   Input:
 %       center_cards – an array of integers representing the cards in the
 %          center pile
