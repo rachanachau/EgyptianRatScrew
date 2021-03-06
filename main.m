@@ -22,3 +22,13 @@ while computer_cards ~= 0 || player_cards ~= 0
     [valid_slap]=rules(center_cards, cardDeckNum);
     pause(2.0)
 end 
+
+if player_cards == 0
+    url = 'https://images-na.ssl-images-amazon.com/images/I/31yuQjazucL._SY291_BO1,204,203,200_QL40_ML2_.jpg';
+    img = imread(url);
+    imshow(img);
+else 
+    url2 = 'https://image.freepik.com/free-vector/winner-banner-falling-ribbons-winner-winners-lottery-game-jackpot-prize_166001-90.jpg';
+    img2 = imread(url2);
+    imshow(img2);
+end 
