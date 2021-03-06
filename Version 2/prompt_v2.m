@@ -40,7 +40,7 @@ start.value = double(get(gcf,'CurrentCharacter'));
 clc;
 % Enter number 1, run the game
 if start.value == 49
-main;
+main_v2;
 end
 
 %Enter number 2, display rules
@@ -80,7 +80,7 @@ if start.value == 50
 
     pause;
     clc;
-    main;
+    main_v2;
     
 end
 
