@@ -19,10 +19,15 @@ global center_cards cardDeckNum ;
 
 number = cardDeckNum(center_cards(end));
 
-if number == 11
-    s_jack = true;
-else
-    s_jack = false;
+if length(center_cards) < 1 
+    s_jack = false; 
+else 
+    if number == 11
+        s_jack = true;
+    else
+        s_jack = false;
+        
+    end 
 end
 
 
