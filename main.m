@@ -7,15 +7,16 @@
 %while neither equals 0
 %= containers.Map('KeyType','double','ValueType','char');
 
-global cardDeckNum cardDeckSuite cardDeckName cardDeckPictures center_cards deck1 deck2 computer_cards ; 
+global cardDeckNum cardDeckSuite cardDeckName cardDeckPictures center_cards deck1 deck2 computer_cards player_cards pseudo_center;
 center_cards = []; 
+pseudo_center = []; 
 Cards; 
 
 [deck1,deck2,computer_cards,player_cards] = hand_out_cards(); 
-for ii=1:3
+while computer_cards ~= 0 || player_cards ~= 0 
     [computer_cards,center_cards] = computer_play(deck1,computer_cards,center_cards,cardDeckPictures); 
-    pause(2.0)
+    [valid_slap]=rules(center_cards, cardDeckNum); 
     listener; 
-    disp(rules(center_cards, cardDeckNum));
-    pause(3.0)
+    [valid_slap]=rules(center_cards, cardDeckNum);
+    pause(2.0)
 end 

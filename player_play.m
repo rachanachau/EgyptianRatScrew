@@ -23,5 +23,6 @@ function [player_cards, center_cards] = player_play(deck2,player_cards,center_ca
  
  %take the card away 
  deck2(end) = [];
+ player_cards = player_cards - 1; 
 end
 
