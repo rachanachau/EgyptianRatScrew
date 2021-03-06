@@ -10,6 +10,7 @@ elseif valid_slap == 1 && val == 115
     
 elseif valid_slap == 0 && val == 115
      msgbox('not valid');
+     [pseudo_center,deck2,player_cards] = invalid_slap(pseudo_center,deck2);
 end
     
 
