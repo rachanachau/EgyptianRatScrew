@@ -16,8 +16,9 @@ Cards;
 valid_slap = 0; 
 while computer_cards ~= 0 || player_cards ~= 0 
     [computer_cards,center_cards] = computer_play(deck1,computer_cards,center_cards,cardDeckPictures); 
+    pause(1.0)
     [valid_slap]=rules(center_cards, cardDeckNum); 
     listener; 
-    %[valid_slap]=rules(center_cards, cardDeckNum);
-    pause(1)
+    [valid_slap]=rules(center_cards, cardDeckNum);
+    pause(2.0)
 end 
