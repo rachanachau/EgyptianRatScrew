@@ -9,12 +9,20 @@ fprintf('\n********************************\n')
 %Greeting to start 
 z = input ('What is your name? \n', 's');
 clc;
+url = 'http://www.clker.com/cliparts/C/G/V/6/j/7/egyptian-rat-hi.png';
+img = imread(url);
+imshow(img);
+
+set(gcf, 'Position',  [200, 100, 500, 400]);
+
 part1 = 'Hi, ';
 part2 = '! ';
 part3 = 'Do you want to start the game or review the rules?';
 greeting = [part1 z part2 part3];
 fprintf (greeting);
 fprintf('\n           \n')
+
+
 
 
 %Instructions or start game
