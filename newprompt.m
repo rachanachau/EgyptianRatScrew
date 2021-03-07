@@ -26,7 +26,7 @@ end
 %if player_input == 2
 if start.value == 50
   
-    rules = imshow('rules.png');
+    therules = imshow('therules.png');
     set(gcf, 'Position', get(0, 'Screensize'));
     
     pause;
