@@ -3,7 +3,7 @@ center_cards = [];
 pseudo_center = []; 
 cards_v2; 
  
-[deck1,deck2,computer_cards,player_cards] = hand_out_cards(); 
+[deck1,deck2,computer_cards,player_cards] = hand_out_cards_v2(); 
 valid_slap = 0; 
 while computer_cards ~= 0 && player_cards ~= 0 
     [computer_cards,center_cards] = computer_play_v2(deck1,computer_cards,center_cards,cardDeckPictures); 
