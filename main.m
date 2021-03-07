@@ -14,12 +14,4 @@ while computer_cards ~= 0 && player_cards ~= 0
     pause(2.0)
 end 
 
-if player_cards == 0
-    end_game; 
-else 
-    url2 = 'https://image.freepik.com/free-vector/winner-banner-falling-ribbons-winner-winners-lottery-game-jackpot-prize_166001-90.jpg';
-    img2 = imread(url2);
-    set(gcf, 'Position', get(0, 'Screensize'));
-    imshow(img2);
-
-end 
+end_game; 
