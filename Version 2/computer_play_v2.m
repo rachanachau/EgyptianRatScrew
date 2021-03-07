@@ -1,7 +1,7 @@
 function [computer_cards, center_cards] = computer_play_v2(deck1,computer_cards,center_cards,pictures) 
     
     global center_cards deck1 computer_cards pseudo_center valid_slap cardDeckNum; 
-    do_slap = randi(5);
+    do_slap = randi(2);
     look_up = 0; 
     if length(center_cards) >= 1
         look_up = center_cards(end);
@@ -21,7 +21,7 @@ function [computer_cards, center_cards] = computer_play_v2(deck1,computer_cards,
         text(.1,.03,computer_points);
         axis off
         axis image
-        [center_cards,pseudo_center,deck1,computer_cards] = grab_deck_and_clear(center_cards,pseudo_center,deck1); 
+        [center_cards,pseudo_center,deck1,computer_cards] = grab_deck_and_clear_v2(center_cards,pseudo_center,deck1); 
     else 
         play = deck1(end);
         center_cards = [center_cards play];
