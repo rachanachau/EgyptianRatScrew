@@ -1,7 +1,7 @@
 global cardDeckNum cardDeckSuite cardDeckName valid_slap cardDeckPictures center_cards deck1 deck2 computer_cards player_cards pseudo_center;
 center_cards = []; 
 pseudo_center = []; 
-Cards; 
+cards_v2; 
  
 [deck1,deck2,computer_cards,player_cards] = hand_out_cards(); 
 valid_slap = 0; 
