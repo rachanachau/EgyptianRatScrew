@@ -50,9 +50,11 @@ for i=1:52
     p2 = subplot(1,2,2);
     cla(p2);
     if i < 25 
+        set(gcf, 'Position', get(0, 'Screensize'));
         hi = text(.1,.1,'We are setting up all the cards! Are you ready?');
     else
         cla(p2);
+        set(gcf, 'Position', get(0, 'Screensize'));
         text(.1,.1,'We hope so, because we will be done in a sec!');
     end  
     axis off

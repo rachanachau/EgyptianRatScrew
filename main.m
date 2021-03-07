@@ -17,13 +17,13 @@ end
 if player_cards == 0
     url = 'https://images-na.ssl-images-amazon.com/images/I/31yuQjazucL._SY291_BO1,204,203,200_QL40_ML2_.jpg';
     img = imread(url);
-    imshow(img);
     set(gcf, 'Position', get(0, 'Screensize'));
+    imshow(img);
 
 else 
     url2 = 'https://image.freepik.com/free-vector/winner-banner-falling-ribbons-winner-winners-lottery-game-jackpot-prize_166001-90.jpg';
     img2 = imread(url2);
-    imshow(img2);
     set(gcf, 'Position', get(0, 'Screensize'));
+    imshow(img2);
 
 end 
