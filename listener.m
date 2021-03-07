@@ -5,9 +5,9 @@ if val == 102
     [player_cards, center_cards] = player_play(deck2,player_cards,center_cards,cardDeckPictures);
     
 elseif valid_slap == 1 && val == 115
-    msgbox('player made a valid slap');
     figure(1);
     clf; 
+    msgbox('player made a valid slap');
     [center_cards,pseudo_center,deck2,player_cards] = grab_deck_and_clear(center_cards,pseudo_center,deck2);
     
 elseif valid_slap == 0 && val == 115
