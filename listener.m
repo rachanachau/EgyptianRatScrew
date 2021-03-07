@@ -1,6 +1,6 @@
 global deck2 pseudo_center center_cards player_cards; 
-press = waitforbuttonpress
-val = double(get(gcf, 'CurrentCharacter'))
+press = waitforbuttonpress;
+val = double(get(gcf, 'CurrentCharacter'));
 if val == 102
     [player_cards, center_cards] = player_play(deck2,player_cards,center_cards,cardDeckPictures);
     
@@ -12,6 +12,3 @@ elseif valid_slap == 0 && val == 115
      msgbox('player made a slap that is not valid');
      [pseudo_center,deck2,player_cards] = invalid_slap(pseudo_center,deck2);
 end
-    
-
-

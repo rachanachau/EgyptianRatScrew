@@ -13,6 +13,11 @@ function [computer_cards, center_cards] = computer_play(deck1,computer_cards,cen
         clf; 
         p1 = subplot(1,2,1);
         text(.1,.1,'Computer made valid slap. Click f to flip a card and s to slap the deck.');
+        c_points = string(computer_cards);
+        c_prompt1 = 'Computer has';
+        c_prompt2 = 'cards';
+        computer_points = strcat(c_prompt1, " ", c_points, " ", c_prompt2);
+        text(.1,.03,computer_points);
         axis off
         axis image
         [center_cards,pseudo_center,deck1,computer_cards] = grab_deck_and_clear(center_cards,pseudo_center,deck1); 
@@ -32,6 +37,11 @@ function [computer_cards, center_cards] = computer_play(deck1,computer_cards,cen
         axis('image');
         p2 = subplot(1,2,2);
         text(.1,.1,'Computer turn. Click f to flip a card and s to slap the deck.');
+        c_points = string(computer_cards - 1);
+        c_prompt1 = 'Computer has';
+        c_prompt2 = 'cards';
+        computer_points = strcat(c_prompt1," ", c_points, " ",c_prompt2);
+        text(.1,.03,computer_points);
         axis off
         axis image
 
@@ -41,4 +51,3 @@ function [computer_cards, center_cards] = computer_play(deck1,computer_cards,cen
     end
     
 end
-
