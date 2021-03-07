@@ -44,7 +44,7 @@ for i=1:52
     pull = convertCharsToStrings(pull);
     src = strcat('PNG/',pull);
     imread(src);
-    set(gcf, 'Position', get(0, 'Screensize'));
+    set(gcf, 'Position', get(0, 'Screensize')); %makes game full screen
     imshow(src);
     axis('image');
     p2 = subplot(1,2,2);

@@ -19,6 +19,11 @@ function [player_cards, center_cards] = player_play_v2(deck2,player_cards,center
  axis('image');
  p2 = subplot(1,2,2);
  text(.1,.1,'Your turn.');
+ p_points = string(player_cards -1);
+ p_prompt1 = 'You have';
+ p_prompt2 = 'cards';
+ player_points = strcat(p_prompt1," ", p_points, " ", p_prompt2);
+ text(.1,.03,player_points);
  axis off
  axis image
  
