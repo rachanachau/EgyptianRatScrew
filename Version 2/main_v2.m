@@ -14,9 +14,23 @@ cards_v2;
 
 [deck1,deck2,computer_cards,player_cards] = hand_out_cards_v2(); 
 while computer_cards ~= 0 || player_cards ~= 0 
-    [computer_cards,center_cards] = computer_play_V2(deck1,computer_cards,center_cards,cardDeckPictures); 
+    [computer_cards,center_cards] = computer_play_v2(deck1,computer_cards,center_cards,cardDeckPictures); 
     [valid_slap]=rules_v2(center_cards, cardDeckNum); 
     listener_v2; 
     [valid_slap]=rules_v2(center_cards, cardDeckNum);
     pause(2.0)
+end 
+
+if player_cards == 0
+    url = 'https://images-na.ssl-images-amazon.com/images/I/31yuQjazucL._SY291_BO1,204,203,200_QL40_ML2_.jpg';
+    img = imread(url);
+    imshow(img);
+    set(gcf, 'Position', get(0, 'Screensize'));
+
+else 
+    url2 = 'https://image.freepik.com/free-vector/winner-banner-falling-ribbons-winner-winners-lottery-game-jackpot-prize_166001-90.jpg';
+    img2 = imread(url2);
+    imshow(img2);
+    set(gcf, 'Position', get(0, 'Screensize'));
+
 end 
