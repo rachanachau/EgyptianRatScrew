@@ -10,6 +10,7 @@ function [computer_cards, center_cards] = computer_play(deck1,computer_cards,cen
     
     if (do_slap == 2 && valid_slap == 1) || look_up 
         figure(1); 
+        set(gcf, 'Position', get(0, 'Screensize'));
         clf; 
         p1 = subplot(1,2,1);
         text(.1,.1,'Computer made valid slap. Click f to flip a card and s to slap the deck.');
@@ -26,7 +27,8 @@ function [computer_cards, center_cards] = computer_play(deck1,computer_cards,cen
         center_cards = [center_cards play];
         
         %display
-        figure(1); 
+        figure(1);
+        set(gcf, 'Position', get(0, 'Screensize'));
         clf; 
         p1 = subplot(1,2,1);
         pull = pictures(play);

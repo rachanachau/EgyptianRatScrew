@@ -8,6 +8,7 @@ function [player_cards, center_cards] = player_play(deck2,player_cards,center_ca
  
  %display
  figure(1); 
+ set(gcf, 'Position', get(0, 'Screensize'));
  clf; 
  p1 = subplot(1,2,1);
  pull = pictures(play);
