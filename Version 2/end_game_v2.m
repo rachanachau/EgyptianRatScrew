@@ -29,7 +29,7 @@ else
    figure(1);
     clf;
     for ii=1:6
-        pull = pictures(ii);
+        pull = win(ii);
         src = strcat('win/',pull);
         imread(src);
         imshow(src);
