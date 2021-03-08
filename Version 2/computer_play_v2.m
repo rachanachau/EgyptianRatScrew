@@ -13,15 +13,15 @@ function [computer_cards, center_cards] = computer_play_v2(deck1,computer_cards,
         set(gcf, 'Position', get(0, 'Screensize'));
         clf; 
         p1 = subplot(1,2,1);
-        text(.1,.1,'Computer made valid slap. Click f to flip a card and s to slap the deck.');
+        text(0,.2,'Computer made valid slap. Click f to flip a card.','FontSize',25);
+        [center_cards,pseudo_center,deck1,computer_cards] = grab_deck_and_clear_v2(center_cards,pseudo_center,deck1); 
         c_points = string(computer_cards);
         c_prompt1 = 'Computer has';
         c_prompt2 = 'cards';
         computer_points = strcat(c_prompt1, " ", c_points, " ", c_prompt2);
-        text(.1,.03,computer_points);
+        text(0,.13,computer_points,'FontSize',25);
         axis off
         axis image
-        [center_cards,pseudo_center,deck1,computer_cards] = grab_deck_and_clear_v2(center_cards,pseudo_center,deck1); 
     else 
         play = deck1(end);
         center_cards = [center_cards play];
@@ -38,12 +38,12 @@ function [computer_cards, center_cards] = computer_play_v2(deck1,computer_cards,
         imshow(src);
         axis('image');
         p2 = subplot(1,2,2);
-        text(.1,.1,'Your turn. Click f to flip a card and s to slap the deck.');
+        text(0,.2,'Your turn. Click f to flip a card and s to slap the deck.','FontSize',25);
         c_points = string(computer_cards - 1);
         c_prompt1 = 'Computer has';
         c_prompt2 = 'cards';
         computer_points = strcat(c_prompt1," ", c_points, " ",c_prompt2);
-        text(.1,.03,computer_points);
+        text(0,.13,computer_points,'FontSize',25);
         axis off
         axis image
 

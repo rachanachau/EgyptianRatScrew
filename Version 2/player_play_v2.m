@@ -18,12 +18,12 @@ function [player_cards, center_cards] = player_play_v2(deck2,player_cards,center
  imshow(src);
  axis('image');
  p2 = subplot(1,2,2);
- text(.1,.1,'Computer turn.');
+ text(0,.2,'Computer turn.','FontSize',25);
  p_points = string(player_cards -1);
  p_prompt1 = 'You have';
  p_prompt2 = 'cards';
  player_points = strcat(p_prompt1," ", p_points, " ", p_prompt2);
- text(.1,.03,player_points);
+ text(0,.13,player_points,'FontSize',25);
  axis off
  axis image
  

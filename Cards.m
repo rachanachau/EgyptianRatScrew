@@ -51,11 +51,11 @@ for i=1:52
     cla(p2);
     if i < 25 
         set(gcf, 'Position', get(0, 'Screensize'));
-        hi = text(.1,.1,'We are setting up all the cards! Are you ready?');
+        hi = text(0,.2,'We are setting up all the cards! Are you ready?','FontSize',25);
     else
         cla(p2);
         set(gcf, 'Position', get(0, 'Screensize'));
-        text(.1,.1,'We hope so, because we will be done in a sec!');
+        text(0,.2,'We hope so, because we will be done in a sec!','FontSize',25);
     end  
     axis off
     axis image
