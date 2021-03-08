@@ -16,7 +16,7 @@ function [new_center,new_pseudo,new_winner,new_winner_size] = grab_deck_and_clea
 %           pseudo_center appended
 %           new_winner_size - integer noting the new size of the winner's
 %           deck
-new_winner = cat(2,winner_deck,center_deck);
+new_winner = cat(2,center_deck,winner_deck);
 new_winner = cat(2,new_winner,pseudo_center);
 new_winner_size = length(new_winner);
 new_center = [];
