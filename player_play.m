@@ -18,7 +18,7 @@ function [player_cards, center_cards] = player_play(deck2,player_cards,center_ca
  imshow(src);
  axis('image');
  p2 = subplot(1,2,2);
- text(.1,.1,'Your turn.');
+ text(.1,.1,'Computer turn.');
  p_points = string(player_cards -1);
  p_prompt1 = 'You have';
  p_prompt2 = 'cards';

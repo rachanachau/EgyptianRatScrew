@@ -38,7 +38,7 @@ function [computer_cards, center_cards] = computer_play_v2(deck1,computer_cards,
         imshow(src);
         axis('image');
         p2 = subplot(1,2,2);
-        text(.1,.1,'Computer turn. Click f to flip a card and s to slap the deck.');
+        text(.1,.1,'Your turn. Click f to flip a card and s to slap the deck.');
         c_points = string(computer_cards - 1);
         c_prompt1 = 'Computer has';
         c_prompt2 = 'cards';
