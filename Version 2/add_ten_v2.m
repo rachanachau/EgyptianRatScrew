@@ -3,7 +3,7 @@ function [s_add_ten] = add_ten_v2(center_cards, cardDeckNum)
 %   Input:
 %       center_cards – an array of integers representing the cards in the
 %          center pile
-%       CardDeckNum – map container containing keys 1:52 which correspond
+%       cardDeckNum – map container containing keys 1:52 which correspond
 %           to the value of each card
 %   Output: 
 %       s_add_ten – indicates if the last two cards in the center add to

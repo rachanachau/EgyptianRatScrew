@@ -3,10 +3,10 @@ function [s_sandwich] = sandwich_v2(center_cards, cardDeckNum)
 %   Input:
 %       center_cards – an array of integers representing the cards in the
 %          center pile
-%       CardDeckNum – map container containing keys 1:52 which correspond
+%       cardDeckNum – map container containing keys 1:52 which correspond
 %           to the value of each card
 %   Output: 
-%       s_sandwich – inidicates if the last card is the same as the third to last card
+%       s_sandwich – indicates if the last card is the same as the third to last card
 
 global center_cards cardDeckNum;
 

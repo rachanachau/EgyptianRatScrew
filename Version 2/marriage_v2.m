@@ -3,18 +3,14 @@ function [s_marriage] = marriage_v2(center_cards, cardDeckNum)
 %   Input:
 %       center_cards – an array of integers representing the cards in the
 %          center pile
-%       CardDeckNum – map container containing keys 1:52 which correspond
+%       cardDeckNum – map container containing keys 1:52 which correspond
 %           to the value of each card
 %   Output: 
-%       s_marriage – inidicates if the last two cards from center deck are a king and queen 
+%       s_marriage – indicates if the last two cards from center deck are a king and queen 
 
 global center_cards cardDeckNum;
 
-
-% 
-% last = cardDeckNum(center_cards(end))
-% second_last = cardDeckNum(center_cards(end-1))
-
+%if loop needed to determine if there are at least two cards in the center 
 if length(center_cards) < 2 
     s_marriage = false; 
 else 
