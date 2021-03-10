@@ -12,8 +12,10 @@ forth flipping cards. This gameplay continues until one player gets all of the c
 
 How to get the code running: 
 1. Download the repository from git. 
+
 Version 1 - Jacks and Doubles 
 2. Once you have the workspace set up, go to the prompt.m file and run the program. Another option is call on prompt.m in the command line. 
+
 Version 2 - Jacks, Doubles, Add to ten, Sandwich, Marriage, Triple Suit 
 3. Click on the version 2 folder within matlab
 4. Open up the prompt_v2.m file and run the program. Another option is call on prompt_v2.m in the command line. 
