@@ -19,7 +19,7 @@ forth flipping cards. This gameplay continues until one player gets all of the c
 
 *Version 2 - Jacks, Doubles, Add to Ten, Sandwich, Marriage, Triple Suit* 
 
-- Click on the version 2 folder within MATLAB
+- Click on the version 2 folder within MATLAB.
 - Open up the prompt_v2.m file and run the program. Another option is call on prompt_v2.m in the command line. 
 
 ![alt text](https://github.com/rachanachau/EgyptianRatScrew/blob/master/gameplay.gif "gameplay.gif")
