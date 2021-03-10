@@ -7,7 +7,6 @@ fprintf('\n*       Egyptian Rat Screw     *\n')
 fprintf('\n********************************\n')
 
 %Instructions or start game
-
 %Button press to determine their choice
 instructions = imshow('instructions.png');
 set(gcf, 'Position', get(0, 'Screensize'));

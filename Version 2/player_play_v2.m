@@ -1,5 +1,17 @@
 function [player_cards, center_cards] = player_play_v2(deck2,player_cards,center_cards,pictures)
-%PLAYER_PLAY_V2: 
+%PLAYER_PLAY_V2: flips a card from player's deck, take it away from the deck,
+%displays the number of cards left
+%   Input: deck2 - (player's deck) an array of 26 integers, randomly chosen
+%          from an array of integers 1 through 52
+%          player_cards - integer noting the number of cards the
+%          player has
+%          center_cards – an array of integers representing the cards in the
+%          center pile
+%   Output: 
+%           player_cards - integer noting the number of cards the
+%           player has
+%           center_cards – an array of integers representing the cards in the
+%           center pile
 
 
  global center_cards deck2 player_cards; 

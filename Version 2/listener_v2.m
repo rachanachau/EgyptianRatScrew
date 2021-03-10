@@ -1,3 +1,10 @@
+%LISTENER_V2: used to wait for a computer key press 
+%   registers when player 
+    %   - flips: 102
+    %   - slaps the center: 115
+%When the center is slapped the message box will indicaet if the slap is
+%valid or not
+
 global deck2 pseudo_center center_cards player_cards; 
 press = waitforbuttonpress;
 val = double(get(gcf, 'CurrentCharacter'));

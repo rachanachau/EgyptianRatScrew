@@ -1,3 +1,5 @@
+%MAIN: runs the game and calls different functions/scripts 
+
 global cardDeckNum cardDeckSuite cardDeckName valid_slap cardDeckPictures center_cards deck1 deck2 computer_cards player_cards pseudo_center;
 center_cards = []; 
 pseudo_center = []; 

@@ -1,6 +1,18 @@
 function [player_cards, center_cards] = player_play(deck2,player_cards,center_cards,pictures)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%PLAYER_PLAY: flips a card from player's deck, take it away from the deck,
+%displays the number of cards left
+%   Input: deck2 - (player's deck) an array of 26 integers, randomly chosen
+%          from an array of integers 1 through 52
+%          player_cards - integer noting the number of cards the
+%          player has
+%          center_cards – an array of integers representing the cards in the
+%          center pile
+%   Output: 
+%           player_cards - integer noting the number of cards the
+%           player has
+%           center_cards – an array of integers representing the cards in the
+%           center pile
+
 
  global center_cards deck2 player_cards; 
  play = deck2(end);
@@ -27,7 +39,7 @@ function [player_cards, center_cards] = player_play(deck2,player_cards,center_ca
  axis off
  axis image
  
- %take the card away 
+ %take the card away from the array
  deck2(end) = [];
  player_cards = player_cards - 1; 
 end
