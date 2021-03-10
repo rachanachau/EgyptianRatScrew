@@ -13,9 +13,17 @@ forth flipping cards. This gameplay continues until one player gets all of the c
 How to get the code running: 
 1. Download the repository from git. 
 Version 1 - Jacks and Doubles 
-2. Once you have the workspace set up, go to the main.m file and run the program. Another option is call on main.m in the command line. 
+2. Once you have the workspace set up, go to the prompt.m file and run the program. Another option is call on prompt.m in the command line. 
 Version 2 - Jacks, Doubles, Add to ten, Sandwich, Marriage, Triple Suit 
 3. Click on the version 2 folder within matlab
-4. Open up the main_v2.m file and run the program. Another option is call on main_v2.m in the command line. 
+4. Open up the prompt_v2.m file and run the program. Another option is call on prompt_v2.m in the command line. 
 
 ![alt text](https://github.com/rachanachau/EgyptianRatScrew/blob/master/gameplay.gif "gameplay.gif")
+
+How to play:
+1. Once you run prompt.m or prompt_v2.m, read the instructions and follow the commands on the screen.
+2. When it is your turn, press f to flip a card or s to slap a card. You want to slap when a certain card or pattern of cards is at the top of the center pile (e.g. a Jack).
+3. When you perform a valid slap, you get all of the center pile cards.
+4. Whoever runs out of cards first loses the game.
+
+Have fun!
