@@ -18,4 +18,4 @@ Version 2 - Jacks, Doubles, Add to ten, Sandwich, Marriage, Triple Suit
 3. Click on the version 2 folder within matlab
 4. Open up the main_v2.m file and run the program. Another option is call on main_v2.m in the command line. 
 
-
+![alt text](https://github.com/rachanachau/EgyptianRatScrew/blob/master/gameplay.gif "gameplay.gif")
