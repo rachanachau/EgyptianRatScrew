@@ -1,4 +1,8 @@
 % END_GAME_V2: Displays winning, losing, or tied animation
+%Lead: SH: 1.5 hours – coding and animation 
+%Peer editing: JM (driver) + RC (observer) 1 hour: debugging and attempting to
+%make animation full screen 
+
 
 global player_cards computer_cards;
 win = ["win1.jpg", "win2.jpg", "win3.jpg", "win4.jpg", "win5.jpg", "win6.jpg"];

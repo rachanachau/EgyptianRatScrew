@@ -11,6 +11,7 @@ function [valid_slap] = rules_v2(center_cards, cardDeckNum, cardDeckSuite)
 %   Output: 
 %       valid_slap – indicates if one of the rules is true and if the
 %       player should slap
+%Peer Programming: JM (driver) + RC (observer): 1 hour 
 
 global center_cards cardDeckNum cardDeckSuite valid_slap;
 

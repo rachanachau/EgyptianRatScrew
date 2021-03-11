@@ -7,6 +7,8 @@ function [s_jack] = jacks(center_cards, cardDeckNum)
 %           to the value of each card
 %   Output: 
 %       s_jack – indicates if the last card in the center is a jack or not
+%Lead: RC: 30 min 
+
 
 global center_cards cardDeckNum ;
 

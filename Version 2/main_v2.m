@@ -1,5 +1,5 @@
 %MAIN_V2: runs the game and calls different functions/scripts 
-
+%lead: SH: 1 hour – debugging and adding necessary changes
 
 global cardDeckNum cardDeckSuite cardDeckName valid_slap cardDeckPictures center_cards deck1 deck2 computer_cards player_cards pseudo_center;
 center_cards = []; 

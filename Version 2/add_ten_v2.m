@@ -8,6 +8,7 @@ function [s_add_ten] = add_ten_v2(center_cards, cardDeckNum)
 %   Output: 
 %       s_add_ten – indicates if the last two cards in the center add to
 %       ten
+%Lead: JM: 1 hour – including debugging and testing 
 
 global center_cards cardDeckNum;
 

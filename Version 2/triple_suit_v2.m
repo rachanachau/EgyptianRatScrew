@@ -8,6 +8,8 @@ function [s_triple_suit] = triple_suit_v2(center_cards, cardDeckSuite)
 %   Output: 
 %       s_triple_suit – boolean representing if the last three cards in the
 %       center pile are the same suit
+%Lead: JM: 1 hour – including debugging and sorting out map containers 
+
 
 global center_cards cardDeckSuite;
 

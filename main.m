@@ -1,4 +1,8 @@
 %MAIN: runs the game and calls different functions/scripts 
+%Lead: SH: 2 hours-coding and figuring out how to use variables between different scripts 
+%Editors: RC + JM: 1 hour each, changing game play as needed and playing
+%through the game
+
 
 global cardDeckNum cardDeckSuite cardDeckName valid_slap cardDeckPictures center_cards deck1 deck2 computer_cards player_cards pseudo_center;
 center_cards = []; 

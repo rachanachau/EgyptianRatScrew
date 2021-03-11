@@ -11,7 +11,10 @@ function [computer_cards, center_cards] = computer_play(deck1,computer_cards,cen
 %           computer has
 %           center_cards – an array of integers representing the cards in the
 %           center pile
-   
+%Lead: SH: 2 hours
+%Peer editing: RC (driver) + JM (observer): 1 hour Modified player play as we played and found bugs  
+
+
     global center_cards deck1 computer_cards pseudo_center valid_slap cardDeckNum; 
     % computer will slap for 20% of valid slaps but always slap if there's a jack 
     do_slap = randi(5);

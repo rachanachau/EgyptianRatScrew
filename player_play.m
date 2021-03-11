@@ -12,7 +12,8 @@ function [player_cards, center_cards] = player_play(deck2,player_cards,center_ca
 %           player has
 %           center_cards – an array of integers representing the cards in the
 %           center pile
-
+%Lead: SH: 1 hour 
+%Peer editing: RC (driver) + JM (observer): 1 hour: Modified player play as we played and found bugs  
 
  global center_cards deck2 player_cards; 
  play = deck2(end);

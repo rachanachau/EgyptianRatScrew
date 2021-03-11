@@ -7,6 +7,9 @@ function [s_marriage] = marriage_v2(center_cards, cardDeckNum)
 %           to the value of each card
 %   Output: 
 %       s_marriage – indicates if the last two cards from center deck are a king and queen 
+%Lead: RC: 1 hour – including debugging and testing 
+
+
 
 global center_cards cardDeckNum;
 

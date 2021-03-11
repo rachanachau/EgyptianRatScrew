@@ -10,7 +10,7 @@
 %           computer has
 %           center_cards – an array of integers representing the cards in the
 %           center pile
-
+%Lead: SH: 30 min 
 
 function [computer_cards, center_cards] = computer_play_v2(deck1,computer_cards,center_cards,pictures) 
     

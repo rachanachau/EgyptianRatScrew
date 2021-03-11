@@ -7,6 +7,8 @@ function [s_sandwich] = sandwich_v2(center_cards, cardDeckNum)
 %           to the value of each card
 %   Output: 
 %       s_sandwich – indicates if the last card is the same as the third to last card
+%Lead: RC: 1 hour – including debugging and testing 
+
 
 global center_cards cardDeckNum;
 

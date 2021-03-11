@@ -10,6 +10,9 @@ function [valid_slap] = rules(center_cards, cardDeckNum)
 %       valid_slap – indicates if one of the rules is true and if the
 %       player should slap
 
+%Pair Programming: RC + JM: 45 min – researching, troubleshooting, coding 
+%Editor: SH: 20 min – Global variables + debugging 
+
 global center_cards cardDeckNum valid_slap;
 
 [s_jack] = jacks(center_cards, cardDeckNum);

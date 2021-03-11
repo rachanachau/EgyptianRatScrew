@@ -1,3 +1,10 @@
+%Peer Programming: Driver–RC; Observer–JM
+%2 hours reformatting and deciding how we would display cards 
+%Lead for second half: SH
+%2 hours connecting map containers to images of each card 
+
+
+
 % Creating a deck of cards 
 suit = {'of_Hearts', 'of_Diamonds', 'of_Spades', 'of_Clubs'};
 rank = {'Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'};
@@ -10,6 +17,7 @@ for k= 1:4
         i= i + 1;
     end
 end
+
 
 %%%%%%%% Creating containers for cards %%%%%%%%%%%
 global cardDeckNum cardDeckSuite cardDeckName cardDeckPictures; 

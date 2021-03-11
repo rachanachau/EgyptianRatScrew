@@ -10,6 +10,9 @@ function [deck1,deck2,computer_cards,player_cards] = hand_out_cards()
 %           computer has
 %           player_cards - integer noting the number of cards the
 %           player has
+%lead: JM – 45 min: researching and coding 
+%editor: SH – changed variables to be global to work w/ other functions -
+%   30 min w/ debugging 
 global deck1 deck2 player_cards computer_cards; 
 full_deck = randperm(52);
 deck1 = full_deck(1:26);

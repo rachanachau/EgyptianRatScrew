@@ -4,6 +4,7 @@
 %       - slaps the center: 115
 %When the center is slapped the message box will indicaet if the slap is
 %valid or not
+%Lead: SH: 2 hours 
 
 global deck2 pseudo_center center_cards player_cards; 
 press = waitforbuttonpress;
