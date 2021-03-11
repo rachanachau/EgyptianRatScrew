@@ -3,7 +3,7 @@
 Group Members: Symone Houston, Rachana Chau, Jessica McDonald 
 
 **Egyptian Rat Screw:** 
-We will be designed a two-person version of Egyptian Rat Screw. The user is player 1 and the computer is player 2. 
+We designed a two-person version of Egyptian Rat Screw. The user is player 1 and the computer is player 2. 
 Each player begins with half of the card deck. The players switch back and forth between flipping a card from 
 their deck into the center pile. When a certain card or pattern of cards is at the top of the center pile, 
 the players are expected to slap the center card pile. The player who slaps the center pile correctly 
