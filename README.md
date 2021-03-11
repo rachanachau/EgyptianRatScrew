@@ -32,7 +32,7 @@ forth flipping cards. This gameplay continues until one player gets all of the c
 
 Have fun!
 
-**Additional Notes**:
+**Additional Notes:**
 We each spent approximately 4-5 hours updating the code and testing in addition to the hours we outlined in the project. We had some trouble getting the board to properly show up after adding different features, so we had to make small changes. We also all took the initiative to get friends to play the game and provide feedback. Using this feedback, we improved the speed at which the player could flip and slap the card. People were pressing the bottom too fast and they could see our code. We also got comments that the text was too small, so we made it larger. Also we had to make sure we were appending to the front of the list in all our code, because it was just looping through the cards in the middle. As a result, people had trouble winning the game sometimes. 
 
 Moreover, we encourage you to play all the different scenarios of game (winning, losing, and tie) so you can see the different animations at the end! 
